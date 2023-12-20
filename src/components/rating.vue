@@ -35,5 +35,9 @@
     <i v-if="rating >= 5" class="bi bi-star-fill"></i>
     <i v-else class="bi bi-star"></i>
   </span>
+  <span :style="{color: color}" v-on:click="assignRating(6)">
+    <i v-if="rating >= 6" class="bi bi-star-fill"></i>
+    <i v-else class="bi bi-star"></i>
+  </span>
   <small>({{rating}})</small>
 </template>
