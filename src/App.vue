@@ -1,5 +1,5 @@
 <script>
-import Products from "./components/Products.vue";
+import Products from "./components/products.vue";
 
 export default {
   components: {
